@@ -1,11 +1,13 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
+import { BaseEx } from "./components/BaseEx";
+import { ToastEx } from "./components/ToastEx";
 
 export const App = () => {
   return (
-    <Box w={"300px"} h={300} bgColor={"salmon"}>
-      <Text>차크라 UI 짱편해~! 우와아~~</Text>
-      <Heading>타이틀!</Heading>
-    </Box>
+    <>
+      {/* <BaseEx />; */}
+      <ToastEx />
+    </>
   );
 };
 

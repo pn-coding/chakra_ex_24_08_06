@@ -5,11 +5,12 @@ const config = {
   useSystemColorMode: false,
 };
 
-const { Button, Modal } = chakraTheme.components;
+const { Button, Modal, Alert } = chakraTheme.components;
 
 const components = {
   Button,
   Modal,
+  Alert,
 };
 
 const _theme = extendBaseTheme({

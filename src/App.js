@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box, Heading, Text } from "@chakra-ui/react";
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box w={"300px"} h={300} bgColor={"salmon"}>
+      <Text>차크라 UI 짱편해~! 우와아~~</Text>
+      <Heading>타이틀!</Heading>
+    </Box>
   );
-}
+};
 
 export default App;
